@@ -1,0 +1,26 @@
+Programming Assignment # 0
+Fibonacci number is a sequence of natural numbers such that
+
+You are required to implement and test the three different methods of computing Fibonacci number:
+
+Recursive algorithm (FibRec)
+Iterative algorithm (FibIter)
+Repeated squaring algorithm (FibRepSq)
+Given an integer n, compute the nth Fibonacci number modulo 30011. The number 30011 is stored in the variable PRIME.
+
+Experiment
+Once you have implemented the functions correctly, you are required to perform an experiment:
+
+Compute FibRec(n), FibIter(n), and FibRepSq(n) on different values of n and measure the runtime of each trial. Determine the largest n for which each function can print its output within 30 seconds. For example, if FibRec(100) takes 20 seconds and FibRec(101) takes 40 seconds, record 100 for the function FibRec.
+
+The largest input n falls into one of:
+
+[0, 100]
+[101, 10000]
+[10001, 1000000]
+[1000001, 1000000000]
+[1000000001, 2147483647]
+Store the index (hardcode) of the range you achieved in the variables MAX_OF_INPUT_REC, MAX_OF_INPUT_ITER, and MAX_OF_INPUT_REPSQ.
+
+There is an execution time limit of 1 minute.aree(data);
+
